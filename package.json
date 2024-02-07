@@ -24,7 +24,8 @@
     "start": "cross-env NODE_ENV=development nodemon server.js",
     "debug": "cross-env NODE_ENV=development nodemon --debug server.js",
     "test": "cross-env NODE_ENV=test babel-tape-runner test/test-*.js",
-    "prod": "pm2-runtime start ecosystem.config.js --env production"
+    "prod": "pm2-runtime start ecosystem.config.js --env production",
+    "build:prod": "pm2-runtime start ecosystem.config.js --env production"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
