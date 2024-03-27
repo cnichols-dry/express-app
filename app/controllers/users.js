@@ -42,7 +42,7 @@ exports.create = async(function*(req, res) {
     );
 
     res.render('users/signup', {
-      title: 'Sign up',
+      title: 'Sign up Now',
       errors,
       user
     });
