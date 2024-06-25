@@ -7,3 +7,10 @@ allowedAuthors:
     - 'joshcummingsdesign'
 notificationList:
   - '@cktricky'
+summaryQuestions:
+  - 'What is the purpose of this this change?'
+  - 'What are the risks of this change?'
+  - 'What are the benefits of this change?'
+codeQuestions:
+  - 'Are there any security concerns with this change?'
+  - 'Are there any performance concerns with this change?'
