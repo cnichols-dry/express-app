@@ -15,4 +15,6 @@ codeQuestions:
   - 'Are there any security concerns with this change?'
   - 'Are there any performance concerns with this change?'
 notifications: 
-  - slack-webhook-ea060ab5
+  enabled: true
+  integrationNames:
+    - slack-webhook-ea060ab5
