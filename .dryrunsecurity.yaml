@@ -14,3 +14,4 @@ summaryQuestions:
 codeQuestions:
   - 'Are there any security concerns with this change?'
   - 'Are there any performance concerns with this change?'
+notifications: false
