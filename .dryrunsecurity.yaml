@@ -1,0 +1,13 @@
+#sensitiveCodepaths:
+#  # Files only allowed authors can modify
+#  # - 'app.js'
+#  # - 'controllers/**/*.js'
+#allowedAuthors:
+#  usernames:
+#    # GitHub usernames that are expected to change code in this repo
+#    - 'user1'
+#    - 'user2'
+summaryQuestions:
+  - 'Does this PR change the encryption of sensitive data?'
+  - 'Are there any security issues with this code change?'
+  - 'Are there any anomalies with the Terraform code in this PR?'

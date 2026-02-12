@@ -27,11 +27,11 @@ module.exports = new GoogleStrategy(
       if (err) return done(err);
       if (!user) {
         user = new User({
-          name: profile.displayName,
-          email: profile.emails[0].value,
-          username: profile.username,
-          provider: 'google',
-          google: profile._json
+          // name: profile.displayName,
+          // email: profile.emails[0].value,
+          // username: profile.username,
+          // provider: 'google',
+          // google: profile._json
         });
         user.save(function(err) {
           if (err) console.log(err);
